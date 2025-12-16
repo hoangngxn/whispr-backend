@@ -4,12 +4,15 @@
     "src/**/*",
     "test/**/*",
     "*.{ts,js,mts}",
-    "./eslint.config.mjs"
+    "./eslint.config.mjs",
+    "ormconfig.ts",
+    "taze.config.js"
   ],
   "exclude": [
     ".vuepress/**/*",
+    ".yarn/**/*",
     "node_modules/**/*",
     "dist/**/*",
-    "**/*.spec.ts"
+    "vite.config.mts"
   ]
 }

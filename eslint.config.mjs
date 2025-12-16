@@ -14,6 +14,19 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
+  {
+    ignores: [
+      '.vuepress/**/*',
+      '.yarn/**/*',
+      'dist/**/*',
+      'node_modules/**/*',
+      '**/*.spec.ts',
+      '**/*.e2e-spec.ts',
+      'vite.config.mts',
+      '*.config.js',
+      '!eslint.config.mjs'
+    ]
+  },
   eslint.configs.recommended,
   promisePlugin.configs['flat/recommended'],
   {

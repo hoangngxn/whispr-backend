@@ -33,7 +33,7 @@ jobs:
         run: yarn
 
       - name: Run ESLint
-        run: npx eslint src --ext .ts --ignore-path .eslintignore
+        run: yarn lint
 
       - name: Run Prettier check
         run: npx prettier --check src/**/*.{ts,js,json}
