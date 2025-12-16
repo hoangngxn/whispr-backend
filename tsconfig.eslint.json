@@ -2,14 +2,14 @@
   "extends": "./tsconfig.json",
   "include": [
     "src/**/*",
-    "bundle.ts",
-    "*.{ts,js,mts}",
     "test/**/*",
+    "*.{ts,js,mts}",
     "./eslint.config.mjs"
   ],
   "exclude": [
     ".vuepress/**/*",
     "node_modules/**/*",
     "dist/**/*",
+    "**/*.spec.ts"
   ]
 }

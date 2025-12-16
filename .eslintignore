@@ -1,0 +1,15 @@
+# VuePress documentation files
+.vuepress/**/*
+
+# Build outputs
+dist/**/*
+node_modules/**/*
+
+# Test files
+**/*.spec.ts
+**/*.e2e-spec.ts
+
+# Config files
+vite.config.mts
+*.config.js
+*.config.mjs

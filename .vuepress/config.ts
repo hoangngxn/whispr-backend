@@ -4,8 +4,8 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   lang: 'en-US',
-  title: 'Awesome NestJS v8 Boilerplate Documentation 🎉',
-  description: 'An ultimate and awesome nodejs boilerplate wrote in typescript',
+  title: 'Whispr Backend Documentation 🎉',
+  description: 'Modern real-time messaging API built with NestJS, TypeScript, and PostgreSQL',
   base: process.env.DEPLOY_ENV === 'gh-pages' ? '/awesome-nest-boilerplate/' : '/',
   bundler: viteBundler({
     viteOptions: {},
